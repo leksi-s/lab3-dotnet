@@ -6,7 +6,6 @@ namespace ConsoleApp4.Run
 	internal class Runner : IRunner
 	{
 		private Dictionary<string, IDocumentFactory> factories = new Dictionary<string, IDocumentFactory>
-
 		{
 			{"Command", new CommandFactory()},
 			{"Letter", new LetterFactory()},
